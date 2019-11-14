@@ -1,0 +1,15 @@
+Update on progress
+This past week I focused on getting the "RNA-seq analysis is easy as 1-2-3 with limma, glimma, and edgeR" vignette to work. 
+When I reached the "Useful graphical representations of differential expression results" portion of the vignette, 
+I ran into errors that there was a discongruence between the number of rows. I started over on writing the script into an 
+R notebook, and was able to make the vignette work. 
+
+Feedback
+We discussed the possibility of adding in age or age at diagnosis to the analysis. 
+
+Known Issues
+The only remaining issue in the vignette, is that the camera method still does not work, but it is nto necessary for 
+the differential gene expression analysis.
+
+Next steps
+Getting all of the htseq.counts files formatted to work within the vignette, and adding information about age.
