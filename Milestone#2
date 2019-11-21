@@ -1,0 +1,15 @@
+Update on progress
+I have successfully integrated my files into the glimma vignette, added race to each corresponding file, matched the Ensemble
+gene name to its gene id using the Homo.sapiens library, and begun preliminary analysis. 
+
+Feedback
+Did not have a chance to meet as I was at a conference.
+
+Known Issues
+Ran into issues trying to get into the correct working directory where all the sample files were located. Ultimately had to 
+create a variable for the working directory to include in the script. I also had to remove the decimal point and any numerical
+values after it from all Ensemble names in order to annotate them.
+
+Next steps
+I am adding the age of each sample so that both race and age are analyzed when studying differential gene expression. I will
+then comlpete the glimma vignette with this information and conduct statstical analysis to finish off the project.
