@@ -1,0 +1,20 @@
+Update on progress
+I have successfully run the RNA-seq analysis is easy as 1-2-3 with limma, Glimma, and edgeR vignette. I successfully produced a
+heatmap demonstrating the results of the statistical analyses which show that there are no differentially expressed genes
+when you compare black patients with endometrial cancer vs. white patients with endometrial cancer.
+
+Feedback
+We discussed changing some of the labeling used, lowering the threshold for significance to establish hits for study, and
+incorporating the camera method for the final product.
+
+Known Issues
+Since I only have two groups being compared there is no Venn Diagram and I had to use the funciton heatmap instead of heatmap.2.
+I did not have any significantly different expressed genes between the black and white patients, so I did not run the camera 
+method. The camera method also did not work in the vignette when running the unit test so we decided at the time that 
+it was not worth pursuing at the onset.
+
+Next steps
+Lower threshold to achieve significance, get camera method to work, fix labeling issues in the vignette, make sure that missing
+gene names are populated.
+
+Beta test: http://rpubs.com/draytonh/betaendometrialrnaseq
