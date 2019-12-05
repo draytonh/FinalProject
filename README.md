@@ -27,7 +27,7 @@ Week 3 - Run RNA-seq analysis on dataframes
 This analysis will be presented in a R Notebook and will be workable as a vignette for which other similar differential gene expression analyses using RNA-seq data may be performed.
 
 ## Required Packages
-limma, Glimma, edgeR, Homo.sapiens
+limma, Glimma, edgeR, Homo.sapiens, gplots
 
 ## Web Interface
 R-Publication: http://rpubs.com/draytonh/finalendometrialrnaseq
