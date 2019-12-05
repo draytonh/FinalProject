@@ -1,11 +1,12 @@
 # FinalProject
 
 ## Description
-This project looks at differential gene expression in Caucasian females vs. African American females with endometrial cancer. Black women have been found to have double the mortality rate of Caucasian females, so it is conceivable that they would have varied gene expression enriched in their tumors. 
+This project looks at differential gene expression in Caucasian females vs. African American females with endometrial cancer. African American women have been found to have double the mortality rate of Caucasian females, so it is conceivable that they would have varied gene expression enriched in their tumors. 
 This will be written-up in a R Notebook that can be run as a vignette. 
 
-## Datasets
+## Dataset Installation 
 Samples were selected from the NIH National Cancer Institute GDC Data Portal and were filtered for White and Black or African American race, not Hispanic or Latino ethnicity. The files were filtered to be from the TCGA-UCEC project, the disease type to be cystic, mucinous, or serous neoplasms (as these are clinically more severe malignancies), the experimental strategy as RNA-Seq, and the workflow type as HTSeq-Counts.
+To download files, apply the filteres described above (or utilize the below url), go to each individual file name on the TCGA website, and select download. 
 
 Samples: Black or African American n = 25, Caucasian n = 50
 
@@ -24,3 +25,15 @@ Week 3 - Run RNA-seq analysis on dataframes
 
 ## User Interface
 This analysis will be presented in a R Notebook and will be workable as a vignette for which other similar differential gene expression analyses using RNA-seq data may be performed.
+
+## Required Packages
+limma, Glimma, edgeR, Homo.sapiens
+
+## Web Interface
+R-Publication: http://rpubs.com/draytonh/finalendometrialrnaseq
+
+## Known Issues
+1) When creating the control matrix, only a column for those above the age of 70 (LT70) is generated, not for those above the age of 70 (GT70). This may be due to a sorting issue and may require for the samples to be entered in a different order.
+2) The camera method was unable to be used for either the original vignette this project was based on or utilizing the sample data for this project. This may be an issue within the original script of the original vignette. 
+
+
