@@ -29,6 +29,9 @@ This analysis will be presented in a R Notebook and will be workable as a vignet
 ## Required Packages
 limma, Glimma, edgeR, Homo.sapiens, gplots
 
+## Usage
+Generate an R Notebook in RStudio utilizing the executable script in the endometrialrnaseq file.
+
 ## Web Interface
 R-Publication: http://rpubs.com/draytonh/finalendometrialrnaseq
 
